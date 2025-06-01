@@ -43,7 +43,7 @@ img {
   font-family: sans-serif;
 }
 
-/* Style the form */
+
 .login-form {
   display: flex;
   flex-direction: column;
@@ -52,7 +52,6 @@ img {
   border: 1px solid black;
 }
 
-/* Style the input fields */
 .login-form input {
   padding: 10px;
   font-size: 1rem;
@@ -75,7 +74,7 @@ img {
   background-color: #3264fc;
 }
 
-/* Style error message */
+
 .error {
   color: red;
   font-size: 0.9rem;
@@ -131,15 +130,14 @@ img {
   background-color: #d32f2f;
 }
 
-/* Title */
 .title {
   text-align: center;
   margin-bottom: 30px;
 }
-/* Container for user info and header */
+
 .header {
   display: flex;
-  justify-content: flex-end; /* aligns user info to the right */
+  justify-content: flex-end; 
   align-items: center;
   padding: 10px 20px;
   gap: 15px;
@@ -191,7 +189,7 @@ img {
   background-color: #b71c1c;
 }
 
-/* Recipe list container with flex-wrap to make a grid */
+
 .recipe-list {
   display: flex;
   flex-wrap: wrap;
@@ -201,7 +199,7 @@ img {
   background-color: #fafafa;
 }
 
-/* Each recipe card styling */
+
 .recipe-card {
   background-color: white;
   border-radius: 12px;
@@ -239,7 +237,6 @@ img {
   font-size: 14px;
   color: #777;
 }
-/* RecipeDetailPage styles in global index.css */
 .container {
   max-width: 700px;
   margin: 40px auto;
@@ -277,7 +274,7 @@ img {
 }
 
 .star.filled {
-  color: #f5c518; /* gold star */
+  color: #f5c518; 
 }
 
 .rating-number {
